@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            width:150px;
+            height:150px;
+            background-color:blue;
+          
+            position:relative;
+           
+
+            animation:anim 4s ease 3s infinite reverse;
+          
+     
+     animation-fill-mode:both;
+
+            /*animation:anim 5s infinite;*/
+          
+           
+
+        }
+
+      
+
+        @keyframes anim{
+
+            from {top:10px;}
+            to{top:150px; background-color: lightcoral;}
+            
+    
+        }
+
+    </style>
+</head>
+<body>
+<div></div>
+    <br>
+
+</body>
+</html>
